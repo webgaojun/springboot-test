@@ -3,6 +3,7 @@ Jenkins+docker持续集成SpringBoot项目测试实例
 
 Dockerfile
 ---------------
+####先使用maven进行打包
 ####（以网易蜂巢hub.c.163.com/xbingo/jdk8镜像为基础镜像进行构建）
 ````
 FROM hub.c.163.com/xbingo/jdk8
