@@ -12,7 +12,7 @@ public class Application {
 	@RequestMapping("/")
 	public String index(){
 		
-		return "Hello Docker";
+		return "Hello This is docker test.";
 	}
 	
 	public static void main(String[] args) {
