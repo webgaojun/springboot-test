@@ -1,4 +1,4 @@
 FROM hub.c.163.com/xbingo/jdk8
-ADD ./target/web-boot-0.0.1.jar /web-boot.jar
+ADD ./target/springboot-test-0.1.jar  /springboot-test-0.1.jar
 EXPOSE 8080
-CMD ["java","-jar","/web-boot.jar"]
+CMD ["java","-jar","/springboot-test-0.1.jar"]
