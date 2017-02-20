@@ -3,6 +3,7 @@ Jenkins+docker持续集成SpringBoot项目测试实例
 
 Dockerfile
 ---------------
+####（以网易蜂巢hub.c.163.com/xbingo/jdk8镜像为基础镜像进行构建）
 ````
 FROM hub.c.163.com/xbingo/jdk8
 ADD ./target/springboot-test-0.1.jar  /springboot-test-0.1.jar
