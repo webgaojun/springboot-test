@@ -1,7 +1,7 @@
 # springboot-test
 Jenkins+docker持续集成SpringBoot项目测试实例
 
-Jenkins构建命令
+Jenkins构建SHELL命令
 ---------------
 ```
 cd $WORKSPACE
