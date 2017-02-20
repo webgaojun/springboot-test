@@ -5,7 +5,7 @@ Jenkins构建命令
 ---------------
 cd $WORKSPACE
 
-##清理并打包,跳过测试
+###清理并打包,跳过测试
 mvn clean
 mvn package -Dmaven.test.skip=true  
 
